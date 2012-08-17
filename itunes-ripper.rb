@@ -32,7 +32,7 @@ end
 def get_images(node_set)
   node_set.each do |node|
     src = node['src']
-    puts "\tfetching #{src}"
+    puts "fetching #{src}"
     
     open(File.join(DATA_DIR, File.basename(src)), 'wb') do |file|
       file << open(src).read
