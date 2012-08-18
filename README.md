@@ -15,10 +15,14 @@ v0.1 initial release
 * download screenshots from iPhone and iPad
 * download to default dir _output_
 
+v0.1.1
+* include name of screenshots app-(iphone|ipad)-n.jpg
+
 v0.2 include options
 * option to specify output_dir (default = output)
 * option to specify country_code (default = us)
 * option to download multiple items (multiple ids)
+* option to download with default renaming or original file name
 
 v0.3 bundler
 * include bundle support
